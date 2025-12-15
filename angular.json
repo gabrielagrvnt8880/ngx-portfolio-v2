@@ -24,13 +24,17 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/styles/variables.scss",
+              "src/styles.scss",
+              "src/assets/styles/global-styles.scss"
+              
             ]
           },
           "configurations": {

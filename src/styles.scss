@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@use "tailwindcss";
+
+@import "./assets/styles/variables.scss"; 
+
+@theme {
+  --color-mint-white-500: #fffefe;
+  --color-mint-accent-500: #2c8feb;
+  --color-background: #131F28;
+}
+
+body {
+  background-color: $background-color;
+}
+.quicksand-normal-400 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}

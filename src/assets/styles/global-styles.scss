@@ -1,0 +1,25 @@
+.layout-host {
+  display: contents !important;
+}
+
+div.navbar-btn-container {
+   
+}
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+  border-radius: 2px;
+  border: 2px solid transparent;
+
+  &.btn-primary {
+    background-color: #2c8feb;
+  }
+  &.btn-outline {
+    border: 2px solid #2c8feb;
+  }
+  &:hover {
+    background: #2c8feb;
+    border: 2px solid #fffeff;
+  }
+}
