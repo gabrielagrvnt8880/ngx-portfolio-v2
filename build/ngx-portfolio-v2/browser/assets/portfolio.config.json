@@ -1,0 +1,11 @@
+{
+  "name": "Gabriel Murillo",
+  "shortName": "Gabriel",
+  "position": "Software Engineer",
+  "skills": ["Angular, NestJS, Typescript", ".NET Core"],
+  "links": {
+    "github": "",
+    "facebook": "",
+    "instagram": ""
+  }
+}
