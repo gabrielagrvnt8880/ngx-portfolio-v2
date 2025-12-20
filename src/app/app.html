@@ -1,9 +1,12 @@
 <app-navbar [name]="'Gabriel Murillo'">
   <p bannerName class="text-2xl font-semibold">
-    {{ name}}
+    {{ name }}
   </p>
 </app-navbar>
 <main class="px-[8rem]">
-  <app-home [name]="`I'm ${shortName}`" [profession]="position"></app-home>
-  
+  <app-home [name]="`${shortName}`" [profession]="position"></app-home>
+  <hr class="h-[.25rem]" style="background: white;">
+  <app-about></app-about>
+  <hr class="h-[.25rem]" style="background: white;"> 
+  <app-experience></app-experience>
 </main>
